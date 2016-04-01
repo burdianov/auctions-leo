@@ -41,7 +41,7 @@ gem 'puma'
 gem 'faye-websocket'
 
 gem 'pry' # for debugging
-gem 'hirb' # provides table layout for listing records in the console
+gem 'hirb' # provides table layout for listing records in the rails console. Must be enabled with the command Hirb.enable
 
 group :test do
   gem 'database_cleaner'
